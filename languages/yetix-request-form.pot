@@ -1,0 +1,754 @@
+# Copyright (C) 2022 Whodunit
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Yetix Request Form for Zendesk 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yetix-request-form\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-09T17:58:50+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.1-alpha-41c44d5\n"
+"X-Domain: yetix-request-form\n"
+
+#. Plugin Name of the plugin
+msgid "Yetix Request Form for Zendesk"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.yetix.io/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add a Zendesk Support Form easily to your WordPress site."
+msgstr ""
+
+#. Author of the plugin
+msgid "Whodunit"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.whodunit.fr"
+msgstr ""
+
+#. translators: argument 1 is opening code tag  , argument 1 is a list of valid authentication strategies separated by , argument 2 is a closing code tag
+#: class/whodunit/client/zendesk/ExtendedAuth.php:39
+msgid "Invalid auth strategy set, please use %1$s %2$s %3$s"
+msgstr ""
+
+#. translators: argument 1 is a opening code tag, argument 2 is a closing code tag
+#: class/whodunit/client/zendesk/ExtendedAuth.php:52
+msgid "Please provide %1$susername%2$s for basic auth."
+msgstr ""
+
+#. translators: argument 1 is a opening code tag, argument 2 is a closing code tag
+#: class/whodunit/client/zendesk/ExtendedAuth.php:56
+msgid "Please provide %1$stoken%2$s for basic auth."
+msgstr ""
+
+#. translators: argument 1 is a opening code tag, argument 2 is a closing code tag
+#: class/whodunit/client/zendesk/ExtendedAuth.php:61
+msgid "Please provide %1$susername%2$s for password auth."
+msgstr ""
+
+#. translators: argument 1 is a opening code tag, argument 2 is a closing code tag
+#: class/whodunit/client/zendesk/ExtendedAuth.php:65
+msgid "Please provide %1$spassword%2$s for password auth."
+msgstr ""
+
+#. translators: argument 1 is a opening code tag, argument 2 is a closing code tag
+#: class/whodunit/client/zendesk/ExtendedAuth.php:70
+msgid "Please provide %1$stoken%2$s for oauth."
+msgstr ""
+
+#: class/whodunit/client/zendesk/ExtendedAuth.php:101
+msgid "Please set authentication to send requests."
+msgstr ""
+
+#: class/whodunit/client/zendesk/ZendeskApiClient.php:91
+msgid "subdomain not defined"
+msgstr ""
+
+#: class/whodunit/client/zendesk/ZendeskApiClient.php:95
+#: class/whodunit/yetix/rest/RestRouteTickets.php:331
+msgid "Unknown error"
+msgstr ""
+
+#: class/whodunit/client/zendesk/ZendeskApiClient.php:99
+msgid "Invalid user"
+msgstr ""
+
+#: class/whodunit/client/zendesk/ZendeskApiClient.php:103
+msgid "Insufficient user rights"
+msgstr ""
+
+#: class/whodunit/utility/Helpers.php:16
+#: class/whodunit/utility/Helpers.php:106
+#: class/whodunit/utility/Localize.php:18
+#: assets/js/admin_settings.js:116
+#: assets/js/admin_settings.js:138
+msgid "Name"
+msgstr ""
+
+#: class/whodunit/utility/Helpers.php:23
+#: class/whodunit/utility/Helpers.php:114
+#: class/whodunit/utility/Localize.php:20
+#: assets/js/admin_settings.js:161
+#: assets/js/admin_settings.js:163
+msgid "Email"
+msgstr ""
+
+#: class/whodunit/utility/Helpers.php:30
+#: class/whodunit/utility/Helpers.php:60
+#: class/whodunit/utility/Helpers.php:122
+#: class/whodunit/utility/Localize.php:22
+#: assets/js/admin_settings.js:186
+#: assets/js/admin_settings.js:188
+msgid "Attachment"
+msgstr ""
+
+#: class/whodunit/utility/Helpers.php:67
+msgid "Add one or more files"
+msgstr ""
+
+#: class/whodunit/utility/Helpers.php:70
+msgid "Upload"
+msgstr ""
+
+#: class/whodunit/utility/Helpers.php:263
+#: assets/js/admin_settings.js:100
+msgid "Date"
+msgstr ""
+
+#: class/whodunit/utility/Helpers.php:284
+msgid "Select a client"
+msgstr ""
+
+#: class/whodunit/utility/Tracker.php:180
+msgid "Zendesk connected"
+msgstr ""
+
+#: class/whodunit/yetix/block/Block.php:17
+#: class/whodunit/yetix/page/PageAdminSettings.php:22
+msgid "Yetix"
+msgstr ""
+
+#: class/whodunit/yetix/page/Page.php:100
+msgid "Thank you for using our product :)"
+msgstr ""
+
+#: class/whodunit/yetix/page/PageAdminSettings.php:21
+msgid "General Settings"
+msgstr ""
+
+#: class/whodunit/yetix/page/PageAdminSettings.php:66
+msgid "Settings"
+msgstr ""
+
+#. translators: argument 1 is a link opening tag to the plugin rating page, argument 2 a link closing tag
+#: class/whodunit/yetix/page/PageAdminSettings.php:83
+msgid "Thank you for using Yetix Request Form! %1$sPlease rate us ★★★★★ on WordPress.org%2$s to help us spread the word."
+msgstr ""
+
+#. translators: argument 1 is the plugin display name
+#: class/whodunit/yetix/Plugin.php:209
+msgid "%s has been activated with success."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:86
+msgid "Your documents exceed the size limit. Try to upload one file at the time"
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:92
+msgid "No document specified."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:98
+#: class/whodunit/yetix/rest/RestRouteTicketFields.php:67
+#: class/whodunit/yetix/rest/RestRouteTicketFields.php:120
+#: class/whodunit/yetix/rest/RestRouteTickets.php:265
+#: class/whodunit/yetix/rest/RestRouteTickets.php:383
+#: class/whodunit/yetix/rest/RestRouteTickets.php:465
+msgid "Cannot connect to zendesk, please contact an administrator."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:108
+msgid "This document type is not allowed."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:110
+msgid "This document exceed the size limit."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:120
+msgctxt "upload_success"
+msgid "This document have been uploaded."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:130
+msgctxt "upload_error_ini_size"
+msgid "This document exceed the server upload limit."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:131
+msgctxt "upload_error_form_size"
+msgid "This document exceed the form upload limit."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:132
+msgctxt "upload_error_err_partial"
+msgid "This document have been partially upload."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:133
+msgctxt "upload_error_no_file"
+msgid "There is no document to upload."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:134
+msgctxt "upload_error_no_tmp_dir"
+msgid "This document cant be uploaded due to a server error."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:135
+msgctxt "upload_error_cant_write"
+msgid "This document cant be uploaded due to a server error."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:136
+msgctxt "upload_error_extention"
+msgid "This document cant be uploaded due to a server error."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:140
+msgctxt "upload_error_unknown"
+msgid "This document cant be uploaded due to a unknown error."
+msgstr ""
+
+#. translators: argument 1 is an error code from zendesk
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:151
+#: class/whodunit/yetix/rest/RestRouteTicketFields.php:76
+#: class/whodunit/yetix/rest/RestRouteTicketFields.php:129
+msgid "An unknown error has occurred, please contact a administrator with this error code %s."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteAttachments.php:169
+msgid "Attachment uploaded"
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteSettings.php:63
+msgid "yetix options load"
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteSettings.php:82
+msgid "yetix options saved"
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteSettings.php:87
+msgid "yetix options have not change"
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteSettings.php:92
+msgid "yetix options cant save"
+msgstr ""
+
+#. translators: argument 1 is the number of field return by zendesk
+#: class/whodunit/yetix/rest/RestRouteTicketFields.php:92
+msgid "%s ticket fields find."
+msgstr ""
+
+#. translators: argument 1 is the number of field return by zendesk
+#: class/whodunit/yetix/rest/RestRouteTicketFields.php:148
+msgid "%s custom ticket fields find."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteTickets.php:260
+msgid "Your account is not link a any zendesk account"
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteTickets.php:270
+msgid "Your link to a invalid zendesk user."
+msgstr ""
+
+#. translators: argument 1 is a error code send by zendesk
+#. translators: argument 1 is a error code send by zendesk
+#: class/whodunit/yetix/rest/RestRouteTickets.php:312
+#: class/whodunit/yetix/rest/RestRouteTickets.php:421
+#: class/whodunit/yetix/rest/RestRouteTickets.php:510
+msgid "An unknown error has occurred, please contact a administrator with this error code : %s."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteTickets.php:315
+msgid "Ticket #%s find."
+msgstr ""
+
+#. translators: argument 1 is a ticket number send by zendesk
+#: class/whodunit/yetix/rest/RestRouteTickets.php:437
+msgid "Ticket #%s created."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteTickets.php:457
+msgid "Your are not link to a valid zendesk user"
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteTickets.php:461
+msgid "Your cant update this ticket"
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteTickets.php:482
+msgid "You must add a comment to send along your attachments."
+msgstr ""
+
+#: class/whodunit/yetix/rest/RestRouteTickets.php:522
+msgid "Comment send."
+msgstr ""
+
+#: views/blocks/requestform/default.php:51
+#: views/shortcodes/requestform/default.php:48
+msgid "Required fields are marked *"
+msgstr ""
+
+#: views/blocks/requestform/default.php:53
+#: views/shortcodes/requestform/default.php:50
+msgid "Send"
+msgstr ""
+
+#: views/blocks/requestform/default.php:61
+#: views/shortcodes/requestform/default.php:59
+msgid "Yetix could not establish a connection to Zendesk, please check your Yetix configuration or ask an administrator to do it."
+msgstr ""
+
+#: views/pages/admin_settings.php:24
+msgid "Yetix settings"
+msgstr ""
+
+#: views/pages/admin_settings.php:30
+msgid "General settings"
+msgstr ""
+
+#: views/pages/admin_settings.php:32
+msgid "Once Zendesk is successfully connected, use Yetix Request Form block or shortcode to add the form to any post."
+msgstr ""
+
+#: views/pages/admin_settings.php:38
+msgid "Zendesk subdomain: "
+msgstr ""
+
+#: views/pages/admin_settings.php:44
+msgid "my subdomain"
+msgstr ""
+
+#: views/pages/admin_settings.php:53
+msgid "Zendesk user: "
+msgstr ""
+
+#: views/pages/admin_settings.php:66
+msgid "Zendesk API token: "
+msgstr ""
+
+#: views/pages/admin_settings.php:87
+#: assets/js/admin_settings.js:124
+msgid "Save settings"
+msgstr ""
+
+#: assets/js/admin_settings.js:81
+msgid "Current connection status"
+msgstr ""
+
+#: assets/js/admin_settings.js:92
+#: assets/js/admin_settings.js:99
+#: assets/js/admin_settings.js:140
+msgid "Text"
+msgstr ""
+
+#: assets/js/admin_settings.js:93
+msgid "Ticket type"
+msgstr ""
+
+#: assets/js/admin_settings.js:94
+msgid "Dropdown list"
+msgstr ""
+
+#: assets/js/admin_settings.js:95
+msgid "Description"
+msgstr ""
+
+#: assets/js/admin_settings.js:96
+msgid "Multiline"
+msgstr ""
+
+#: assets/js/admin_settings.js:97
+msgid "Status"
+msgstr ""
+
+#: assets/js/admin_settings.js:98
+msgid "Priority"
+msgstr ""
+
+#: assets/js/admin_settings.js:101
+msgid "Group"
+msgstr ""
+
+#: assets/js/admin_settings.js:102
+msgid "Assignee"
+msgstr ""
+
+#: assets/js/admin_settings.js:103
+msgid "Multiselect Dropdown list"
+msgstr ""
+
+#: assets/js/admin_settings.js:104
+msgid "Decimal"
+msgstr ""
+
+#: assets/js/admin_settings.js:105
+msgid "Credit card"
+msgstr ""
+
+#: assets/js/admin_settings.js:106
+msgid "Checkbox"
+msgstr ""
+
+#: assets/js/admin_settings.js:107
+msgid "Numeric"
+msgstr ""
+
+#: assets/js/admin_settings.js:108
+msgid "Regular expression"
+msgstr ""
+
+#: assets/js/admin_settings.js:111
+msgid "Zendesk ticket fields"
+msgstr ""
+
+#: assets/js/admin_settings.js:113
+msgid "Set default fields settings."
+msgstr ""
+
+#: assets/js/admin_settings.js:117
+msgid "Type"
+msgstr ""
+
+#: assets/js/admin_settings.js:118
+msgid "Format"
+msgstr ""
+
+#: assets/js/admin_settings.js:119
+msgid "Display"
+msgstr ""
+
+#: assets/js/admin_settings.js:120
+msgid "Required"
+msgstr ""
+
+#: assets/js/admin_settings.js:139
+#: assets/js/admin_settings.js:162
+#: assets/js/admin_settings.js:187
+#: assets/js/admin_settings.js:222
+msgid "System"
+msgstr ""
+
+#: assets/js/admin_settings.js:145
+#: assets/js/admin_settings.js:167
+#: assets/js/admin_settings.js:193
+#: assets/js/admin_settings.js:241
+msgid "Overwrite label"
+msgstr ""
+
+#: assets/js/admin_settings.js:146
+#: assets/js/admin_settings.js:168
+#: assets/js/admin_settings.js:243
+msgid "Default value"
+msgstr ""
+
+#: assets/js/admin_settings.js:195
+msgid "Maximum file size"
+msgstr ""
+
+#. translators: argument 1 is a maximum bytes size accepted by wp and the server config
+#: assets/js/admin_settings.js:198
+msgid "Bytes ( %s max )"
+msgstr ""
+
+#: assets/js/admin_settings.js:200
+msgid "Allowed file extensions list"
+msgstr ""
+
+#: assets/js/admin_settings.js:222
+msgid "Custom"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:122
+msgid "Request Form"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:127
+msgctxt "block_search_keyword"
+msgid "form"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:127
+msgctxt "block_search_keyword"
+msgid "ticket"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:127
+msgctxt "block_search_keyword"
+msgid "zendesk"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:164
+msgid "Request Form Settings"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:168
+#: assets/js/blocks/requestform.js:342
+msgid "Template"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:174
+msgid "Return type"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:177
+msgid "Display result in the form"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:180
+msgid "Redirect to a specific url"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:189
+msgid "Redirect behavior"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:192
+msgid "Redirection url"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:202
+msgid "redirection timeout"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:213
+msgid "Display behavior"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:216
+msgid "hide form when send"
+msgstr ""
+
+#: assets/js/blocks/requestform.js:224
+msgid "re-enable form timeout"
+msgstr ""
+
+#: assets/js/requestform_script.js:66
+msgid "Upload complete"
+msgstr ""
+
+#: assets/js/requestform_script.js:73
+msgid "Upload error"
+msgstr ""
+
+#: assets/js/requestform_script.js:152
+msgid "Processing"
+msgstr ""
+
+#. translators: argument 1 is the field label
+#: assets/js/requestform_script.js:264
+msgid "%s field is invalid."
+msgstr ""
+
+#. translators: argument 1 is the number of invalid field, argument 2 is a line break, argument 3 is a list of all labels
+#: assets/js/requestform_script.js:270
+msgid "%1$s field is invalid.%2$s %3$s."
+msgid_plural "%1$s fields are invalid.%2$s %3$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: argument 1 is the field label
+#: assets/js/requestform_script.js:283
+msgid "%s field is missing."
+msgstr ""
+
+#. translators: argument 1 is the number of invalid field, argument 2 is a line break, argument 3 is a list of all labels
+#: assets/js/requestform_script.js:289
+msgid "%1$s field is missing.%2$s %3$s."
+msgid_plural "%1$s fields are missing.%2$s %3$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/requestform_script.js:413
+msgctxt "first letter of Sunday"
+msgid "S"
+msgstr ""
+
+#: assets/js/requestform_script.js:414
+msgctxt "first letter of Monday"
+msgid "M"
+msgstr ""
+
+#: assets/js/requestform_script.js:415
+msgctxt "first letter of Tuesday"
+msgid "T"
+msgstr ""
+
+#: assets/js/requestform_script.js:416
+msgctxt "first letter of Wednesday"
+msgid "W"
+msgstr ""
+
+#: assets/js/requestform_script.js:417
+msgctxt "first letter of Thursday"
+msgid "T"
+msgstr ""
+
+#: assets/js/requestform_script.js:418
+msgctxt "first letter of Friday"
+msgid "F"
+msgstr ""
+
+#: assets/js/requestform_script.js:419
+msgctxt "first letter of Saturday"
+msgid "S"
+msgstr ""
+
+#: assets/js/requestform_script.js:422
+msgid "January"
+msgstr ""
+
+#: assets/js/requestform_script.js:423
+msgid "February"
+msgstr ""
+
+#: assets/js/requestform_script.js:424
+msgid "March"
+msgstr ""
+
+#: assets/js/requestform_script.js:425
+msgid "April"
+msgstr ""
+
+#: assets/js/requestform_script.js:426
+msgid "May"
+msgstr ""
+
+#: assets/js/requestform_script.js:427
+msgid "June"
+msgstr ""
+
+#: assets/js/requestform_script.js:428
+msgid "July"
+msgstr ""
+
+#: assets/js/requestform_script.js:429
+msgid "August"
+msgstr ""
+
+#: assets/js/requestform_script.js:430
+msgid "September"
+msgstr ""
+
+#: assets/js/requestform_script.js:431
+msgid "October"
+msgstr ""
+
+#: assets/js/requestform_script.js:432
+msgid "November"
+msgstr ""
+
+#: assets/js/requestform_script.js:433
+msgid "December"
+msgstr ""
+
+#: assets/js/requestform_script.js:436
+msgctxt "short for January"
+msgid "Jan"
+msgstr ""
+
+#: assets/js/requestform_script.js:437
+msgctxt "short for February"
+msgid "Feb"
+msgstr ""
+
+#: assets/js/requestform_script.js:438
+msgctxt "short for March"
+msgid "Mar"
+msgstr ""
+
+#: assets/js/requestform_script.js:439
+msgctxt "short for April"
+msgid "Apr"
+msgstr ""
+
+#: assets/js/requestform_script.js:440
+msgctxt "short for May"
+msgid "May"
+msgstr ""
+
+#: assets/js/requestform_script.js:441
+msgctxt "short for June"
+msgid "Jun"
+msgstr ""
+
+#: assets/js/requestform_script.js:442
+msgctxt "short for July"
+msgid "Jul"
+msgstr ""
+
+#: assets/js/requestform_script.js:443
+msgctxt "short for August"
+msgid "Aug"
+msgstr ""
+
+#: assets/js/requestform_script.js:444
+msgctxt "short for September"
+msgid "Sep"
+msgstr ""
+
+#: assets/js/requestform_script.js:445
+msgctxt "short for October"
+msgid "Oct"
+msgstr ""
+
+#: assets/js/requestform_script.js:446
+msgctxt "short for November"
+msgid "Nov"
+msgstr ""
+
+#: assets/js/requestform_script.js:447
+msgctxt "short for December"
+msgid "Dec"
+msgstr ""
+
+#: assets/js/requestform_script.js:449
+msgid "Today"
+msgstr ""
+
+#: assets/js/requestform_script.js:450
+msgid "Now"
+msgstr ""
+
+#: assets/js/requestform_script.js:451
+msgctxt "short for ante meridiem"
+msgid "AM"
+msgstr ""
+
+#: assets/js/requestform_script.js:452
+msgctxt "short for post meridiem"
+msgid "PM"
+msgstr ""
+
+#: assets/js/requestform_script.js:490
+msgid "No files selected."
+msgstr ""
+
+#. translators: argument 1 is the number of file selected
+#: assets/js/requestform_script.js:493
+msgid "%s file selected."
+msgid_plural "%s files selected."
+msgstr[0] ""
+msgstr[1] ""

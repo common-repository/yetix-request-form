@@ -1,0 +1,36 @@
+{
+    "name"              : "whodunit/yetix",
+	"minimum-stability" : "stable",
+	"license"           : "GPL2",
+	"type"              : "project",
+	"description"       : "wordpress ticketing tool integration",
+	"authors"           : [ {
+		"name"     : "Bastien Martinent",
+		"email"    : "bastien@whodunit.fr",
+		"homepage" : "http://www.whodunit.fr",
+		"role"     : "developer"
+	} ],
+	"config": {
+		"optimize-autoloader" : true
+	},
+	"autoload" : {
+		"psr-4" : {
+		    "whodunit\\yetix\\"                       : "class/whodunit/yetix/",
+		    "whodunit\\yetix\\behavior\\"             : "class/whodunit/yetix/behavior/",
+		  	"whodunit\\yetix\\entity\\"               : "class/whodunit/yetix/entity/",
+		  	"whodunit\\yetix\\model\\"                : "class/whodunit/yetix/model/",
+		    "whodunit\\yetix\\model\\traits\\"        : "class/whodunit/yetix/model/traits/",
+		  	"whodunit\\yetix\\block\\"                : "class/whodunit/yetix/block/",
+		  	"whodunit\\yetix\\page\\"                 : "class/whodunit/yetix/page/",
+		  	"whodunit\\yetix\\rest\\"                 : "class/whodunit/yetix/rest/",
+		  	"whodunit\\yetix\\shortcode\\"            : "class/whodunit/yetix/shortcode/",
+		  	"whodunit\\yetix\\widget\\"               : "class/whodunit/yetix/widget/",
+		  	"whodunit\\client\\zendesk\\"             : "class/whodunit/client/zendesk/",
+		 	"whodunit\\client\\zendesk\\resources\\"  : "class/whodunit/client/zendesk/resources/",
+		  	"whodunit\\utility\\"                     : "class/whodunit/utility/"
+		}
+	},
+	"require": {
+	  	"zendesk/zendesk_api_client_php": "^2.2"
+	}
+}
